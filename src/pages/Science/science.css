@@ -1,0 +1,17 @@
+.firs_block-box{
+  flex-direction: column;
+  align-items: center;
+}
+
+.science-inner-box{
+  padding: 50px;
+}
+
+.first-block-box{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error{
+  color: red;
+}

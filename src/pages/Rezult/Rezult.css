@@ -1,0 +1,21 @@
+.inner-result{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-block-box-mark{
+  display: flex;
+  gap: 30px;
+ 
+}
+
+.realmadrid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.talim-real{
+  margin-left: 170px;
+  margin-top: 30px;
+}

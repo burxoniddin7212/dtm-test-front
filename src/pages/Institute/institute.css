@@ -1,0 +1,31 @@
+.institute-inner-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.institute-select{
+  margin-top: 10px;
+}
+
+.institute-select-box-2{
+  width: 355px;
+}
+
+.grand-box{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.limit{
+  padding: 0;
+  margin: 0;
+}
+
+.mark{
+  padding: 0;
+  margin: 0;
+}

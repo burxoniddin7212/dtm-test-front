@@ -14,8 +14,10 @@ import Oneresult from './pages/Oneresult/Oneresult'
 function App() {
 
   return (
-    <Routes>
-      <Route path='/register' element={<Register />} />
+  //  <Register/>
+    <div>
+      <Routes>
+      <Route path='/' element={<Register />} />
       <Route path='/login' element={<Login />} />
       <Route path='/science' element={<Science />} />
       <Route path='/institute' element={<Institute />} />
@@ -24,6 +26,7 @@ function App() {
       <Route path='/allresult' element={<Allresult />} />
       <Route path='/oneresult' element={<Oneresult />} />
     </Routes>
+    </div>
 
   )
 }

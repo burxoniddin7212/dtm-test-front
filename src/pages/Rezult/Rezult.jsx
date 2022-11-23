@@ -58,8 +58,8 @@ const Result = () => {
             </div>
 
           </div>
-          
-          <div className=' pb-5'> Goo register <Link to={"/register"} >Sign up</Link></div>
+
+          <div className=' pb-5'> Goo register <Link to={"/"} >Sign up</Link></div>
 
         </div>
       </div>

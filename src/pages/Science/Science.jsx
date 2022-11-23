@@ -72,7 +72,7 @@ const Science = () => {
                 error1 ? (<p className="error">Iltimos ikkala blo'k fanni ham tanlang</p>)
                   : (false)
               }
-              <div className=' pb-5'><Link to={"/register"} >go register</Link></div>
+              <div className=' pb-5'><Link to={"/"} >go register</Link></div>
               <h2 className='mb-5'>Blok testlarga hush kelibsiz</h2>
 
               <div className='d-flex first-block-box w-75'>

@@ -51,7 +51,7 @@ const Login = () => {
             <input className='form-control w-50' type="text" placeholder='user name' onChange={(e) => { setusername(e.target.value) }} value={username} />
             <input className='form-control w-50' type="text" placeholder='password' onChange={(e) => { setpassword(e.target.value) }} value={password} />
             <button className="btn btn-primary w-50 mb-5 login_btn" onClick={loginOnclick}>Log In</button>
-            <div className=' pb-5'>Don't have an account? <Link to={"/register"} >Sign up</Link></div>
+            <div className=' pb-5'>Don't have an account? <Link to={"/"} >Sign up</Link></div>
 
           </div>
         </div>
